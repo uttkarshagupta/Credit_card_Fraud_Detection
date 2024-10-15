@@ -19,10 +19,14 @@ Data Splitting:
 Divided the data into training and testing sets (80/20 split), ensuring balanced class distribution in each set.
 Model Building 🚀
 Random Forest Classifier: Trained the model using a Random Forest Classifier due to its robustness and ability to handle imbalanced data. This classifier was chosen after comparing its accuracy, precision, recall, and F1-score with other models.
+
 # Evaluation:
+
 Achieved notable performance in terms of accuracy, precision, recall, and F1-score.
 The Matthews Correlation Coefficient (MCC) was used to further validate model effectiveness.
+
 Results 📊
+
 Accuracy: The model's accuracy on the test set is impressive, meaning it performs well in distinguishing fraudulent transactions.
 Confusion Matrix: Visualized the results with a confusion matrix to illustrate the number of correct and incorrect predictions for both fraud and legitimate transactions.
 
