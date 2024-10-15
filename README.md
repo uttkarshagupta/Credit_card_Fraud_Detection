@@ -25,12 +25,19 @@ The Matthews Correlation Coefficient (MCC) was used to further validate model ef
 Results 📊
 Accuracy: The model's accuracy on the test set is impressive, meaning it performs well in distinguishing fraudulent transactions.
 Confusion Matrix: Visualized the results with a confusion matrix to illustrate the number of correct and incorrect predictions for both fraud and legitimate transactions.
+
 Metric	Score
+
 Accuracy	99.8%
+
 Precision	94.0%
+
 Recall	90.0%
+
 F1 Score	92.0%
+
 MCC	0.85
+
 Usage 🛠️
 
 Data Preprocessing: Start by exploring and preprocessing the data. You can use the provided Jupyter notebooks for detailed step-by-step guidance.
