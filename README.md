@@ -5,18 +5,24 @@ In today’s digital world, credit card fraud has become a significant concern. 
 
 # Project Highlights ✨
 Dataset: The dataset used contains transactions made by European cardholders in September 2013 and includes 284,807 transactions. Only 492 of these are fraudulent, making the data highly imbalanced.
+
 Objective: Detect fraudulent transactions and ensure that credit card companies can identify suspicious activities, protecting customers from fraudulent charges.
+
 Model: Utilizes a Random Forest Classifier for robust classification. The model has been evaluated using various metrics to ensure reliability.
+
 Data Analysis 🔍
 Here's a breakdown of the steps involved in analyzing and processing the data:
 
 Data Preprocessing:
 Loaded the dataset using Pandas and performed initial exploratory analysis to understand the data.
 Identified and calculated the ratio of fraud to legitimate transactions, revealing that fraud cases make up only a small fraction of the data.
+
 Feature Analysis:
 Studied transaction amounts and correlated features using a heatmap to visualize relationships between variables.
+
 Data Splitting:
 Divided the data into training and testing sets (80/20 split), ensuring balanced class distribution in each set.
+
 Model Building 🚀
 Random Forest Classifier: Trained the model using a Random Forest Classifier due to its robustness and ability to handle imbalanced data. This classifier was chosen after comparing its accuracy, precision, recall, and F1-score with other models.
 
